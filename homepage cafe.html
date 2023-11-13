@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>homepage cafe uptm</title>
+	<style>
+		* {
+			border-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		.container {
+			display:flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo {
+			margin-right: 20px;
+		}
+		.header-container.uptm {
+			text-align: center;
+		}
+		
+		.horizontal-menu {
+			width:100%;
+		    padding: 0;
+			margin: 0;
+			background-color:#F79520;
+			overflow:hidden;
+			display: inline;
+			margin-right: 0px;
+		}
+		.horizontal-menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 20px 20px;
+			text-decoration:none;
+			font-size: 18px;
+			margin-left: 160px
+		}
+		.horizontal-menu a:hover {
+			background-color:#403B37;
+		}
+		.horizontal-menu a.active {
+			background-color: #403B37;
+		}
+		
+		.body {
+			display: flex;
+            align-items: center;
+        }
+		
+		.button-container {
+			display: flex;
+            justify-content: space-between; /* Adjust this as needed to control the space between the buttons */
+			margin-left: auto;
+        }
+		.center-button1 {
+            text-align: center;
+			margin-left: 30px;
+		    width: 100px;
+			color: #F79520;
+		}
+		.custom-button1 {
+			background-color: #F79520;
+			color: white;
+			border-radius: 15px;
+			border:none;
+			width: 200px;
+			padding: 15px 20px;
+			font-size:18px;
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		.center-button2 {
+            text-align: center;
+			margin-left: 30px;
+		    width: 100px;
+			color: #F79520;
+		}
+		.custom-button2 {
+			background-color: white;
+			color: #F79520;
+			border-radius: 15px;
+			border-color: #F79520; 
+			width: 200px;
+			padding: 15px 20px;
+			font-size:18px;
+			text-align: center;
+			font-weight: bold;
+			margin-left: -500px;
+		}
+
+        .calendar {
+			float: right;
+            /* Add any additional styles you want for the image here */
+        }
+		
+		.copyright {
+			text-align: center;
+		    margin-top: 100px;
+            color:#403B37;
+		    font-size: 16px;
+	    }
+
+	
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+			<h1 style="text-align: center;font-size: 50px; margin-bottom: 90px;"><img src="images/uptm_cafe_sample_logo.png" width="140" alt="logo" class="logo" style="float:left;">
+			University Poly-Tech Malaysia</h1>
+		</div>
+		
+		<section class="container">
+			<div class="horizontal-menu">
+				<a href="homepage cafe.html" class="active">About Us</a>
+				<a href="guide cafe.html" >Guide</a>
+				<a href="booking cafe.html" >Booking</a>
+				<a href="contact us cafe.html" >Contact Us</a>
+				<a href="login page.html" >Login</a>
+			</div>
+		</section>
+	</header> 
+	
+	<section class="body">
+		<div class="text">
+			<h1 style="font-size: 50px;margin-left: 30px;margin-bottom: -20px;">EVENT STAGE BOOKING</h1><br>
+			<h3 style="font-size: 30px; color: #F79520; margin-left: 30px;">Simplify Your Schedule,</h3>
+			<h3 style="font-size: 30px; color: #F79520; margin-left: 30px; margin-top: -20px;">Book With Ease.</h3>
+			<div class="button-container">
+				<div class="center-button1">
+					<a href="guide cafe.html">
+                    <input type="button" value="GET STARTED" class="custom-button1">
+                    </a>
+                </div>
+            <div class="center-button2">
+                    <a href="booking cafe.html">
+                    <input type="button" value="RESERVE NOW !" class="custom-button2">
+                    </a>
+            </div>
+            </div>
+			<div class="socmed">
+				<a href="https://www.facebook.com/uptm.official/" target="_blank"></a><img src="images/facebooklogo.png" style="margin-left:30px;margin-top:20px;" width="70" alt="facebook">
+				<a href="https://www.instagram.com/uptm_official/" target="_blank"></a><img src="images/instalogo.png" style="margin-left:30px;margin-top:20px;" width="70" alt="instagram">
+				<a href="https://api.whatsapp.com/send/?phone=60196990861&text&type=phone_number&app_absent=0" target="_blank"></a><img src="images/whatsapplogo.png" style="margin-left:30px;margin-top:20px;" width="80" alt="whatsapp">
+				<p style="font-size: 20px; color: #F79520; margin-left: 30px;">follow for more information!</p>
+			</div>
+
+		</div>
+		
+		<div class="text-and-image">
+			<img src="images/calendarpicture.png" alt="calendar" class="calender" style="float:right;">
+		</div>
+	</section>
+	
+	<footer>
+		<div class="copyright"> <p>&copy; 2023 UPTM Cafe. All rights reserved.</p></div>
+	</footer>
+</body>
+</html>

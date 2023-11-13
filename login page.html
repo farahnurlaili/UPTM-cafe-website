@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login cafe uptm</title>
+	<style>
+		* {
+			border-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		.container {
+			display:flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo {
+			margin-right: 20px;
+		}
+		.header-container.uptm {
+			text-align: center;
+		}
+		
+		.horizontal-menu {
+			width:100%;
+		    padding: 0;
+			margin: 0;
+			background-color:#F79520;
+			overflow:hidden;
+			display: inline;
+			margin-right: 0px;
+		}
+		.horizontal-menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 20px 20px;
+			text-decoration:none;
+			font-size: 18px;
+			margin-left: 160px
+		}
+		.horizontal-menu a:hover {
+			background-color:#403B37;
+		}
+		.horizontal-menu a.active {
+			background-color: #403B37;
+		}
+		
+		.contact {
+		    text-align: center;
+            display: flex;
+            flex-direction: column; /* To stack the items vertically */
+			margin-top: 10px;
+        }
+
+        .contact li {
+		    color: #2F2F2F;
+            text-align: left;
+            margin-left: 570px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .centered {
+		    text-align: center;
+		    margin-right: 50px;
+        }
+		.button-container {
+			display: flex;
+            justify-content:space-between; /* Adjust this as needed to control the space between the buttons */
+			column-gap: 50px;
+			margin-left: auto;
+			margin-top: 85px;
+        }
+		.center-button1 {
+            text-align: center;
+			margin-left: 530px;
+		    width: 100px;
+			color: #F79520;
+		}
+		.custom-button1 {
+			background-color: #F79520;
+			color: white;
+			border-radius: 15px;
+			border:none;
+			width: 200px;
+			padding: 15px 20px;
+			font-size:18px;
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		.center-button2 {
+            text-align: center;
+			margin-right: 350px;
+		    width: 100px;
+			color: #F79520;
+		}
+		.custom-button2 {
+			background-color: white;
+			color: #F79520;
+			border-radius: 15px;
+			border-color: #F79520; 
+			width: 200px;
+			padding: 15px 20px;
+			font-size:18px;
+			text-align: center;
+			font-weight: bold;
+			margin-left: -500px;
+		}
+
+		
+		.copyright {
+			text-align: center;
+		    margin-top: 150px;
+            color:#403B37;
+		    font-size: 16px;
+	    }
+	
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+			<h1 style="text-align: center;font-size: 50px; margin-bottom: 90px; "><img src="images/uptm_cafe_sample_logo.png" width="140" alt="logo" class="logo" style="float:left;">
+			University Poly-Tech Malaysia</h1>
+		</div>
+		
+		<section class="container">
+			<div class="horizontal-menu">
+				<a href="homepage cafe.html">About Us</a>
+				<a href="guide cafe.html" >Guide</a>
+				<a href="booking cafe.html" >Booking</a>
+				<a href="contact us cafe.html" >Contact Us</a>
+				<a href="login cafe.html" class="active">Login</a>
+			</div>
+		</section>
+	
+	</header> 
+	
+	<body>
+		<h1 style="font-size:50px;text-align:center">Login</h1><br>
+		<div class="login-button">
+		<div class="button-container">
+				<div class="center-button1">
+					<a href="user login cafe.html">
+                    <input type="button" value="USER LOGIN" class="custom-button1">
+                    </a>
+                </div>
+            <div class="center-button2">
+                    <a href="admin login cafe.html">
+                    <input type="button" value="ADMIN LOGIN" class="custom-button2">
+                    </a>
+            </div>
+            </div>
+		</div>
+	</body>
+	
+	<footer>
+		<div class="copyright"> <p>&copy; 2023 UPTM Cafe. All rights reserved.</p></div>
+	</footer>
+</body>
+</html>
